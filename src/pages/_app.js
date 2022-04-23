@@ -27,7 +27,7 @@ const  App=({ Component, pageProps }) =>{
         />
         <meta name="google-site-verification" content="WEzxrBSW1ZOcD54bZ-xqoo8_YFWWvW6xUAO5300vRng" />
         <meta httpEquiv="X-UA-Compatible" content="ie-edge" />
-        <meta name="description" content="Je suis donc cinéaste professionnel indépendant en ce sens que j’écris mes films, les réalise et les produit par lui-même, de l’idée jusqu’à la phase finale de la postproduction." />
+        <meta name="description" content="Je suis cinéaste professionnel indépendant en ce sens que j’écris mes films, les réalise et les produits par moi-même, de l’idée jusqu’à la phase finale de la postproduction." />
 
         <meta property="abdelwaheb bouden" content="abdelwaheb bouden" key="abdelwaheb bouden" />
         <meta name="keywords" content="film tunisian cinéma  abdelwaheb bouden mer art" />
