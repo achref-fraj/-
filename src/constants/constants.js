@@ -443,7 +443,7 @@ export const myMovie = {
   titre: "Nature",
   laCompagne: {
     titre: "La compagne",
-    p: `Dès mon enfance, je trouvais la <b>nature</b> plus attrayante et plus amicale que la société traditionaliste et autoritaire dans laquelle je vivais.<br/>
+    p: `Dès mon enfance, je trouvais la <b style={{ color: "#535978" }}>nature</b> plus attrayante et plus amicale que la société traditionaliste et autoritaire dans laquelle je vivais.<br/>
 
     Je me souviens toujours de ces moments de plaisir, d’apaisement et de liberté que je passais dans le verger paternel situé en pleine compagne à plusieurs kilomètres de ma vielle ville natale où je vivais avec ma famille. Je trouvais auprès de la verdure, des arbres et des animaux le calme et la sérénité. Je passais mon temps à me promener et à jouer sans que personne ne venait me déranger.
     <br/>
@@ -457,7 +457,7 @@ export const myMovie = {
   },
   laMer: {
     titre: "La mer",
-    p: `Je me souviens aussi de ce lointain espace d’évasion en plein air situé à plusieurs kilomètres de ma ville natale et qui constituait pour l’enfant, l’adolescent et le jeune homme que j’étais le deuxième lieu de liberté, d’apaisement et d’émerveillement : la <b>mer</b> et la plage d’une ville côtière où ma famille passait chaque année les vacances d’été.<br/>
+    p: `Je me souviens aussi de ce lointain espace d’évasion en plein air situé à plusieurs kilomètres de ma ville natale et qui constituait pour l’enfant, l’adolescent et le jeune homme que j’étais le deuxième lieu de liberté, d’apaisement et d’émerveillement : la <b style={{ color: "#535978" }}>mer</b> et la plage d’une ville côtière où ma famille passait chaque année les vacances d’été.<br/>
 
     Mon rythme de vie quotidien était simple et régulier. Pendant toute la période des vacances, je me réveillais à l’aube et j’allais seul à la plage alors que les membres de la famille continuaient à dormir. Le torse nu et habillé en simple maillot, je parcourais pieds nus les quelques rues qui séparaient la maison familiale de la mer en peu de temps.  Ma joie était toujours grande d’arriver à la mer avant le lever du soleil et avant que l’eau ne devienne agitée. Me trouver seul au bord de la mer avant l’arrivée des baigneurs à la plage me procurait une immense satisfaction.<br/>
     
@@ -487,13 +487,14 @@ export const NatureArtPhilosophie = {
   title: "Nature, art et philosophie",
   Peinture: {
     titre: "Peinture",
-    p: `Devenu élève à l’unique lycée de ma ville natale, j’ai découvert avec émerveillement l’art de la <b>peinture</b>. Je peignais des paysages et des couchers de soleil sur la mer. La nature et la mer surtout constituaient évidemment le thème privilégié de mes tableaux. J’ai fait spontanément la jonction entre deux passions, la nature et la peinture. Je trouvais dans la nature et dans la peinture une dimension existentielle et esthétique qui me faisait rêver.<br/>`,
+    p: `Devenu élève à l’unique lycée de ma ville natale, j’ai découvert avec émerveillement l’art de la <b style={{ color: "#535978" }}>peinture</b>. Je peignais des paysages et des couchers de soleil sur la mer. La nature et la mer surtout constituaient évidemment le thème privilégié de mes tableaux. J’ai fait spontanément la jonction entre deux passions, la nature et la peinture. Je trouvais dans la nature et dans la peinture une dimension existentielle et esthétique qui me faisait rêver.<br/>`,
   },
   Cinema: {
     titre: "Cinéma",
     p: `Parallèlement à la peinture, j’étais émerveillé par les beaux paysages des plaines et des canyons de la nature américaine dans les films westerns que j’apercevais comme d’immenses tableaux à l’échelle naturelle. J’éprouvais de l’admiration et de la sympathie envers les indiens que je voyais plus proches de la nature que les autres personnages des films   westerns. Je ne prêtais pas beaucoup d’attention aux histoires racontées. Ce qui m’attirait le plus c’étaient les paysages naturels et les chevauchées indiennes. Un western sans les paysages sauvages et sans les chevauchées des indiens ne satisfaisait pas l’adolescent que j’étais.<br/>
 
-    Aussitôt ai-je appris la constitution d’un club de cinéastes amateurs dans ma ville natale que je n’ai pas hésité à y adhérer et ma passion de la peinture s’est mutée progressivement vers le <b style={{ color: "#535978" }}>cinéma</b> et la <b style={{ color: "#535978" }}>photographie</b> sans perdre le lien esthétique et émotionnel avec mon art de départ. La trace est visible dans mes films d’aujourd’hui.<br/>`,
+    Aussitôt ai-je appris la constitution d’un club de cinéastes amateurs dans ma ville natale que je n’ai pas hésité à y adhérer et ma passion de la peinture s’est mutée progressivement vers le <b style={{ color: "#535978" }}>cinéma</b>  et la <b style={{ color: "#535978" }}>photographie </b> 
+       sans perdre le lien esthétique et émotionnel avec mon art de départ. La trace est visible dans mes films d’aujourd’hui.<br/>`,
   },
   philosophie: {
     titre: "Philosophie",
@@ -519,7 +520,7 @@ export const CinemaExistentiel = {
  
  Mon inclinaison envers la nature n’exclue pas mon adhésion à la <b style={{ color: "#535978" }}>modernité</b>, celle au service de la préservation et le développement de la vie naturelle et humaine vers le meilleur.<br/>
  
- Une idée forte pour une histoire simple est ma devise. L’idée n’est pas pour moi nécessairement un énoncé intellectuel et un thème précis et clair. Le point de départ peut être une intuition, une émotion, une impression, une image, un bruit ou un son.  La vie n’est pas en premier lieu une<b style={{ color: "#535978" }}>histoire</b>  à raconter mais une <b>existence</b> à vivre.<br/>`,
+ Une idée forte pour une histoire simple est ma devise. L’idée n’est pas pour moi nécessairement un énoncé intellectuel et un thème précis et clair. Le point de départ peut être une intuition, une émotion, une impression, une image, un bruit ou un son.  La vie n’est pas en premier lieu une <b style={{ color: "#535978" }}>histoire</b>  à raconter mais une <b style={{ color: "#535978" }}> existence </b> à vivre.<br/>`,
   EsthetiquePhilosophique: {
     titre: "Esthétique philosophique",
     p: `Cette philosophie existentielle est essentiellement esthétique. Ma conception de l<b style={{ color: "#535978" }}>’esthétique </b>est philosophique en ce sens que je considère la beauté comme le cœur battant de la vie et la finalité de l’art. L’esthétique n’est pas une simple apparence décorative et ornementale ou un habillage et un maquillage. La beauté d’une actrice n’est pas seulement un physique mais aussi une présence, un regard, un geste, une démarche, une voix, une parole, une façon d’être, un charme, une sensibilité, une sensualité, un jeu, un non-dit et un non-vu.<br/>`,
@@ -531,7 +532,7 @@ export const CinemaExistentiel = {
   },
   ValeursPlans: {
     titre: "Valeurs des plans",
-    p: `J’aime user de <b style={{ color: "#535978" }}>plans séquences</b>, <b style={{ color: "#535978" }}>fixes</b> et <b style={{ color: "#535978" }}>larges</b>. Je conçois les plans comme des tableaux de peinture et comme des photographies artistiques.
+    p: `J’aime user de <b style={{ color: "#535978" }}>plans séquences </b>, <b style={{ color: "#535978" }}>fixes</b> et <b style={{ color: "#535978" }}>larges</b>. Je conçois les plans comme des tableaux de peinture et comme des photographies artistiques.
 
     J’évite de disséquer les séquences en plusieurs plans et en différentes valeurs de plans pour approcher la réalité dans son ensemble.<br/>`,
   },
@@ -572,7 +573,7 @@ export const CinemaIndependant = {
   
   Je ne subordonne pas l’art à l’économie. Je me souci en premier lieu de <b
   style={{ color: "#535978" }}
-  >création artistique</b> et d’<b>expression philosophique</b>, indépendamment des impératifs commerciaux et des exigences du public.<br/>
+  >création artistique</b> et d’<b style={{ color: "#535978" }}>expression philosophique</b>, indépendamment des impératifs commerciaux et des exigences du public.<br/>
   
   Mon désir ultime est l’émerveillement par la beauté et  l’expression de la libre pensée pour une vie en harmonie entre nature, humanité et modernité.<br/>`,
 };
