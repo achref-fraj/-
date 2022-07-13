@@ -6,6 +6,8 @@ import {
   Name,
   Title,
   Content,
+  Name1,
+  Name2
 } from "./CarrouselStyles";
 import Image from "next/image";
 import { CarouselImages } from "../../constants/constants";
@@ -20,14 +22,13 @@ const Carrousel = () => {
         centeredSlides={true}
         pagination
         autoplay={{
-          delay: 3500,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         navigation={true}
         modules={[Autoplay, Navigation, Pagination]}
         className="mySwiper"
       >
-     
         {CarouselImages.map(({ src, alt }, i) => (
           <>
             <SwiperSlide key={i}>
@@ -47,7 +48,7 @@ const Carrousel = () => {
             </SwiperSlide>
           </>
         ))}
-           <SwiperSlide key={"55"}>
+        <SwiperSlide key={"55"}>
           <Content>
             <Logo>
               <Image
@@ -63,16 +64,22 @@ const Carrousel = () => {
               />
             </Logo>
             <Header>
-              <Name style={{
-                fontFamily: "Kristen ITC"
-              }}><b style={{ fontSize:66 }}>Abdelwaheb</b> BOUDEN</Name>
+              <Name
+                style={{
+                  fontFamily: "Kristen ITC",
+                }}
+              >
+                <b>
+                  <Name1>Abdelwaheb</Name1>
+                </b>{" "}
+                BOUDEN
+              </Name>
               <br />
-<br></br><br></br>
-              <Title style={{
-                fontFamily: "Kristen ITC",
-                fontSize:22,
-                marginTop:100
-              }}>Artistephilosophe <b style={{ fontSize:52 }}>Réalisateur</b></Title>
+              <br></br>
+              <br></br>
+              <Title>
+                Artistephilosophe <b ><Name2>Réalisateur</Name2></b>
+              </Title>
             </Header>
           </Content>
         </SwiperSlide>

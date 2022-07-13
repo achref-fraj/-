@@ -28,12 +28,22 @@ export const Header = styled.span`
     letter-spacing: 2px;
   }
   @media ${(props) => props.theme.breakpoints.md} {
-    transform: translateY(130%);
+    transform: translateY(80%);
     letter-spacing: 2px;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
-    transform: translateY(140%);
+    transform: translateY(90%);
     letter-spacing: 2px;
+  }
+`;
+
+export const Name1 = styled.span`
+  font-size: 66px;
+  @media ${(props) => props.theme.breakpoints.md} {
+    font-size: 35px;
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 20px;
   }
 `;
 
@@ -45,11 +55,11 @@ export const Logo = styled.span`
     width: 100px;
   }
   @media ${(props) => props.theme.breakpoints.md} {
-    transform: translateY(150px);
+    transform: translateY(100px);
     width: 80px;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
-    transform: translateY(55px);
+    transform: translateY(80px);
     width: 50px;
   }
 `;
@@ -66,16 +76,24 @@ export const Name = styled.span`
     font-size: 2.3rem;
   }
 `;
+export const Name2 = styled.span`
+font-size: 52; 
 
+`;
 export const Title = styled.span`
   font-size: 8rem;
+  font-size: 22;
+  margin-top: 100px;
+  font-family: "Kristen ITC";
   @media ${(props) => props.theme.breakpoints.xl} {
     font-size: 6rem;
   }
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     font-size: 3rem;
+    margin-top: 0px;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 1.75rem;
+    margin-top: -10px;
   }
 `;
