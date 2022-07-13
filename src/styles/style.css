@@ -165,7 +165,8 @@
     url("//db.onlinewebfonts.com/t/ebea2aa546d58c52c20de57835663484.svg#Bradley Hand ITC Std")
       format("svg");
 }
-
+@import url(//db.onlinewebfonts.com/c/ac63b6058f703ae46123ce6c383c6287?family=Kristen+ITC);
+@font-face {font-family: "Kristen ITC"; src: url("//db.onlinewebfonts.com/t/ac63b6058f703ae46123ce6c383c6287.eot"); src: url("//db.onlinewebfonts.com/t/ac63b6058f703ae46123ce6c383c6287.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ac63b6058f703ae46123ce6c383c6287.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ac63b6058f703ae46123ce6c383c6287.woff") format("woff"), url("//db.onlinewebfonts.com/t/ac63b6058f703ae46123ce6c383c6287.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ac63b6058f703ae46123ce6c383c6287.svg#Kristen ITC") format("svg"); }
 .loading {
   --height: 10px;
   --loader-color: blue;

@@ -30,7 +30,7 @@ const MesFilms = () => {
   }, [load]);
   return (
     <MesFilmsContainer id="films">
-      <Title style={{ color: "white",   fontFamily:"Space Grotesk,sans-serif"}}>Mes Films</Title>
+      <Title style={{ color: "white",   fontFamily:"Kristen ITC"}}>Mes films</Title>
       {data?.map(({ filmName, uri, bondeAnnounce, details, film,syn }, idx1) => (
         <>
           <SmallTitle key={idx1+film+uri}>{filmName}</SmallTitle>
@@ -49,7 +49,7 @@ const MesFilms = () => {
               />
             </Affiche>
             <Description>
-              <Table>
+              <Table style={{fontFamily:"Kristen ITC"}}>
                 {details?.map(({ title, text }, idx) => (
                   <tr key={idx}>
                     <Th>{title}</Th>
@@ -72,6 +72,7 @@ const MesFilms = () => {
           color: "#EFEFEF",
           background: "transparent",
           border: "1px solid #EFEFEF",
+          fontFamily:"Kristen ITC"
         }}
       >
         {!load ? "Afficher plus ..." : "Afficher moins"}

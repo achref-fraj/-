@@ -4,25 +4,41 @@ import {
   Text,
   TextContainer,
 } from "../../styles/GlobalComponents";
+import parse from "html-react-parser";
 
-
-import { ThirdTitle } from "../MyMovie/MesMoviesStyles";
-
+import { ThirdTitle, SecondTitle1 } from "../MyMovie/MesMoviesStyles";
+import { CinemaExistentiel } from "../../constants/constants";
 const Cinema = () => {
   return (
     <SummaryContainer id="portfolio">
       <TextContainer>
-        <ThirdTitle>{"Cinéma"}</ThirdTitle>
+        <SecondTitle1
+          style={{
+            textAlign: "center",
+          }}
+        >
+          <ThirdTitle>{CinemaExistentiel.titre}</ThirdTitle>
+        </SecondTitle1>
+        <Text>{parse(CinemaExistentiel.p)}</Text>
+        <ThirdTitle>
+          {parse(CinemaExistentiel.EsthetiquePhilosophique.titre)}
+        </ThirdTitle>
+        <Text>{parse(CinemaExistentiel.EsthetiquePhilosophique.p)}</Text>
+        <ThirdTitle>
+          {parse(CinemaExistentiel.beauteExistence.titre)}
+        </ThirdTitle>
+        <Text>{parse(CinemaExistentiel.beauteExistence.p)}</Text>
+        <ThirdTitle>{parse(CinemaExistentiel.ValeursPlans.titre)}</ThirdTitle>
+        <Text>{parse(CinemaExistentiel.ValeursPlans.p)}</Text>
 
-        <Text>
-        Parallèlement à la peinture, j’étais émerveillé par les beaux paysages des plaines et des canyons de la nature américaine dans les films western que je voyais comme d’immenses tableaux à l’échelle naturelle. J’éprouvais de l’admiration et de la sympathie envers les indiens que je voyais plus proches de la nature que les autres personnages des films. Je ne prêtais pas beaucoup d’attention aux histoires racontées. Ce qui m’attirait le plus c’étaient les paysages naturels et les chevauchées des indiens. Un western sans les paysages sauvages et sans les chevauchées des indiens ne satisfaisait pas à l’adolescent que j’étais.<Text>{"\n"}</Text> Aussitôt ai-je appris
-          la constitution d’un club de cinéastes amateurs, que je n’ai pas
-          hésité à y adhérer et ma passion de la peinture s’est mutée
-          progressivement vers le <b style={{ color: "#535978" }}>cinéma</b> et
-          la <b style={{ color: "#535978" }}>photographie</b> sans perdre le
-          lien esthétique avec mon art de départ. La trace est évidente dans mes
-          films d’aujourd’hui.
-        </Text>
+        <ThirdTitle>
+          {parse(CinemaExistentiel.BruitageAccompagnement.titre)}
+        </ThirdTitle>
+        <Text>{parse(CinemaExistentiel.BruitageAccompagnement.p)}</Text>
+        <ThirdTitle>
+          {parse(CinemaExistentiel.ecologieEtModernite.titre)}
+        </ThirdTitle>
+        <Text>{parse(CinemaExistentiel.ecologieEtModernite.p)}</Text>
       </TextContainer>
     </SummaryContainer>
   );

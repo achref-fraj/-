@@ -23,23 +23,23 @@ import "swiper/css/navigation";
 const Home = () => {
   return (
     <Layout>
-      <>
-        <UpDown />
-        <MyMovie />
-        <NewPragraphe />
-        <Cinema/>
-        <Philosophie/>
-        <Indepandante/>
-        <CinémaExistentiel />
-        <CinemaNonViolence/>
-        <Cinemaesthetique/>
-        <Estetique/>
-        <EcologieModern/>
-        <MesFilms />
-        <Casting />
-        <Blog />
-      </>
-    </Layout>
+    <>
+      <UpDown />
+    <MesFilms />
+      <MyMovie />
+      <NewPragraphe />
+      <Cinema/>
+      <Philosophie/>
+      <Indepandante/>
+     {/* <CinémaExistentiel />*/}
+      {/*<CinemaNonViolence/>*/}
+      {/*<Cinemaesthetique/>*/}
+     {/* <Estetique/>*/}
+      {/*<EcologieModern/>*/}
+      <Blog />
+      <Casting />
+    </>
+  </Layout>
   );
 };
 export default Home;

@@ -64,13 +64,15 @@ const Carrousel = () => {
             </Logo>
             <Header>
               <Name style={{
-                fontFamily: "Bradley Hand ITC Std"
-              }}>Abdelwaheb BOUDEN</Name>
+                fontFamily: "Kristen ITC"
+              }}><b style={{ fontSize:66 }}>Abdelwaheb</b> BOUDEN</Name>
               <br />
-
+<br></br><br></br>
               <Title style={{
-                fontFamily: "Bradley Hand ITC Std"
-              }}>Réalisateur </Title>
+                fontFamily: "Kristen ITC",
+                fontSize:22,
+                marginTop:100
+              }}>Artistephilosophe <b style={{ fontSize:52 }}>Réalisateur</b></Title>
             </Header>
           </Content>
         </SwiperSlide>

@@ -18,6 +18,7 @@ export const SmallTitle = styled.h2`
   text-align: center;
   align-items: center;
   padding: 5rem;
+  font-family:Kristen ITC;
   &:after {
     content: "";
     position: absolute;
@@ -188,6 +189,7 @@ export const TitleName = styled.div`
   margin: 2rem;
   font-size: 2rem;
   margin-left: 0;
+  font-family: Kristen ITC;
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 2rem;
   }

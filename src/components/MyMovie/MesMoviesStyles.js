@@ -29,6 +29,7 @@ export const SecondTitle = styled.h2`
   margin: 8rem;
   margin-bottom: 6rem;
   margin-top: -8rem;
+  font-family:Kristen ITC;
   @media ${(props) => props.theme.breakpoints.lg} {
     font-size: 2.5rem;
     margin-top: -2rem;
@@ -50,7 +51,7 @@ export const SecondTitle1 = styled.h2`
   margin: 8rem;
   margin-bottom: 6rem;
   margin-top: 2rem;
-
+  font-family:Kristen ITC;
   @media ${(props) => props.theme.breakpoints.lg} {
     font-size: 2.5rem;
     margin-top: -2rem;
@@ -70,6 +71,7 @@ export const Title1 = styled.h1`
   color: #4c516d;
   font-size: 10rem;
   text-align: center;
+  font-family:Kristen ITC;
   @media ${(props) => props.theme.breakpoints.lg} {
     font-size: 5rem;
   }
@@ -83,6 +85,7 @@ export const Title1 = styled.h1`
 
 export const ThirdTitle = styled.h3`
   align-self: flex-start;
+  font-family:Kristen ITC;
   font-size: 5rem;
   margin-top: 10rem;
   color: #535978;

@@ -37,10 +37,12 @@ export default class MyDocument extends Document {
           />
           <link rel="shortcut icon" type="image/ico" href={``} />
           <link rel="apple-touch-icon" href={``} />
+         
           <link
             href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
             rel="stylesheet"
           />
+          
           
         </Head>
         <body>

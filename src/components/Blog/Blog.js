@@ -51,7 +51,7 @@ const Blog = () => {
             className="slider3-h2"
             style={{
               fontSize: "10rem",
-              fontFamily: "Space Grotesk,sans-serif",
+              fontFamily: "Kristen ITC",
             }}
           >
             Blogs
