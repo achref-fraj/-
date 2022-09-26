@@ -37,7 +37,9 @@ export const MonCinéma = {
   title: "Conception et style",
   secondTitle: `Mon cinéma est d'inspiration philosophique,`,
   secondTitle1: ` esthétique et écologique.`,
-  text: ` Dès ma petite enfance, je trouvais ${<b style={{ color: "#535978" }}>la nature</b>} plus amicale, plus attrayante, plus apaisante et plus belle que la société conservatrice et intolérante dans laquelle je vivais. 
+  text: ` Dès ma petite enfance, je trouvais ${(
+    <b style={{ color: "#535978" }}>la nature</b>
+  )} plus amicale, plus attrayante, plus apaisante et plus belle que la société conservatrice et intolérante dans laquelle je vivais. 
   Je me souviens toujours de ces moments de plaisir que je passais dans le verger paternel situé en pleine compagne à plusieurs kilomètres de ma vielle ville natale. Je trouvais auprès de la verdure, des arbres et des animaux le calme et la sérénité. Les couchers du soleil me fascinaient particulièrement.
    `,
   text1: `
@@ -77,6 +79,47 @@ fugiat iusto fuga praesentium optio`,
 ];
 
 export const MesFilmsData = [
+  {
+    filmName: "Le réveil de l’instinct",
+    uri: "/images/new.jpg",
+    bondeAnnounce: {
+      name: "Bande d'annonce:",
+      link: "https://www.youtube.com/embed/d0gFRMgE-rU",
+    },
+    film: {
+      name: "Film:",
+      link: "https://www.youtube.com/embed/I8jX9oJPoZc",
+    },
+    syn: {
+      title: "Synopsis:",
+      text: ` Une jeune et belle femme s'arrête au bord d'une clairière donnant sur la mer. La vue l’émerveille. Elle passe un long moment à admirer la mer et le paysage environnant.  Elle se détent un moment puis elle enlève ses vêtements, met ses deux pièces et quitte la clairière.  Elle se baigne dans la mer..
+      Quand elle regagne la clairière, elle est surprise de trouver un jeune homme avec qui elle discutera pendant longtemps. 
+      Alors qu'elle lui parle de nature, de beauté et d'amour , il lui parle de son projet de construction d'un complexe touristique. D'où l'opposition de leurs deux projets.`,
+    },
+    details: [
+      {
+        title: "Auteur/\nRéalisateur/\nProducteur:\n",
+        text: `Abdelwaheb Bouden`,
+      },
+      {
+        title: "Pays:",
+        text: `Tunisie`,
+      },
+      {
+        title: "Durée:",
+        text: `1:30:00`,
+      },
+      {
+        title: "Année du Tournage/\nfin post-prod:",
+        text: `  2022`,
+      },
+      {
+        title: "Acteurs:",
+        text: `Anaïs Pessey, César Duminil`,
+      },
+    ],
+  },
+
   {
     filmName: "La mer aussi aime le blues",
     uri: "/images/affiche_4.1.2.jpg",
@@ -412,8 +455,8 @@ export const NewPrag = {
   secondTitle1: ` esthétique et écologique`,
   text: `Devenu élève à l’unique lycée de ma ville natale, j’ai découvert la peinture qui est devenue pour moi une passion pendant quelques années. Je peignais des paysages et des couchers de soleil sur la mer. La nature constituait évidemment le thème privilégié de mes tableaux. J’ai fait spontanément la jonction entre deux passions, la nature et la peinture. Je trouvais dans la nature et dans la peinture une dimension esthétique qui m’émerveillait.
    `,
-   bold:"cinéma",
-   bold1:"photographie",
+  bold: "cinéma",
+  bold1: "photographie",
   text1: `
 Parallèlement à la peinture, j’étais passionné des films western et des beaux paysages et canyons de la nature américaine que je voyais comme d’immenses tableaux  à l’échelle naturelle.\n\n\n Aussitôt ai-je appris la constitution d’un club de cinéastes amateurs, que je n’ai pas hésité à y adhérer et ma passion de la peinture s’est mutée progressivement vers le cinéma et la photographie sans perdre le lien esthétique avec mon art de départ. La trace est évidente dans mes films d’aujourd’hui.`,
 
@@ -435,7 +478,7 @@ export const CinémaExist = {
   text1: `\n`,
   text2: `Vivre en harmonie avec la nature et selon son rythme de vie dans la lenteur et l’apaisement est le sens premier de l’existence. C’est la nature comme donnée première et fondamentale qui inspire ma philosophie de la vie et du cinéma. Mes films sont l’expression de moments d’existence harmonieuse avec la nature et non la narration d’une histoire chargée d’événements et connectés au mode de vie social accéléré et accentué par des violences et des drames artificiels prétendus comme l’expression du réel.
   Mon inclinaison vers la nature n’exclue pas mon adhésion à la modernité, celle au service de la préservation et le développement de la vie naturelle et humaine vers le meilleur.
-`
+`,
 };
 
 //-----------------------------*************---------------------------------//

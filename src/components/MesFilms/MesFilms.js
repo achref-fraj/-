@@ -63,7 +63,7 @@ const MesFilms = () => {
           </AfficheContainer>
          <Syn  bonde={syn}/>
           <BondeEtFilm bonde={bondeAnnounce} />
-          <BondeEtFilm bonde={film} />
+          
         </>
       ))}
       <Button
